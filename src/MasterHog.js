@@ -40,7 +40,7 @@ export default class MasterHog extends Component {
         </div>
         
         <ul className="hoglist">
-
+ 
         {offspring.map(baby => {
             return <BabyHog
                 key = {baby.id}
